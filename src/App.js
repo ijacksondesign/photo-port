@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
+import Contact from './components/Contact';
 
 function App() {
   const [categories] = useState([
@@ -35,6 +36,7 @@ const [currentCategory, setCurrentCategory] = useState(categories[0]);
       <main>
         <Gallery currentCategory={currentCategory}></Gallery>
         <About></About>
+        <Contact></Contact>
       </main>
     </div>
   );
