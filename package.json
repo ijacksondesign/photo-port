@@ -2,7 +2,7 @@
   "name": "photo-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ijacksondesign.github.io/photo-port",
+  "homepage": "https://ijacksondesign.com/photo-port",
   "dependencies": {
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
